@@ -6,13 +6,13 @@ Cancer Treatment Dose Prediction is a machine learning-based framework designed 
 ## Repository Structure
 This repository contains multiple Jupyter Notebook (`.ipynb`) files, each corresponding to different experimental setups and datasets:
 
-- `lb-cv-fs-all-final.ipynb` - Model for lymph node-based dose prediction.
-- `lct-cv-fs-all-final.ipynb` - Model utilizing CT scan data for dose prediction.
-- `lct1-cv-fs-all-final.ipynb` - First subset analysis using CT scan data.
-- `lct2-cv-fs-all-final.ipynb` - Second subset analysis using CT scan data.
-- `lpt-cv-fs-all-final.ipynb` - Model leveraging PET scan features for dose prediction.
-- `lpt1-cv-fs-all-final.ipynb` - First subset analysis using PET scan data.
-- `lpt2-cv-fs-all-final.ipynb` - Second subset analysis using PET scan data.
+- `lb-cv-fs-all-final.ipynb` - Model for absorbed dose prediction in lymph node metastases.
+- `lct-cv-fs-all-final.ipynb` - Model utilizing CT-derived radiomic features for dose prediction.
+- `lct1-cv-fs-all-final.ipynb` - First subset analysis using CT-derived features.
+- `lct2-cv-fs-all-final.ipynb` - Second subset analysis using CT-derived features.
+- `lpt-cv-fs-all-final.ipynb` - Model leveraging PET-derived radiomic features for dose prediction.
+- `lpt1-cv-fs-all-final.ipynb` - First subset analysis using PET-derived features.
+- `lpt2-cv-fs-all-final.ipynb` - Second subset analysis using PET-derived features.
 
 ## Results and Key Plots
 The model evaluates the accuracy of predicted ADs against actual measured ADs. Below are two key visualizations from the research:
