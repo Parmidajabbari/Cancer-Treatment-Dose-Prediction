@@ -21,14 +21,14 @@ The model evaluates the accuracy of predicted ADs against actual measured ADs. B
 The comparison between predicted ADs and measured ADs across different algorithms is shown below. The identity line indicates perfect agreement between predictions and measured values, reflecting higher R² values in AD estimation.
 
 <p align="center">
-  <img width=80% src="assets/images/picture1-1.png">
+  <img width=80% src="assets/images/Picture1-1.png">
 </p>
 
 ### Chord Diagram for RF-CB Correlations
 This diagram visualizes the correlations between radiomic features and clinical biomarkers at different experimental stages (E7 and E10). Line widths represent the strength of correlation, with statistically significant associations marked.
 
 <p align="center">
-  <img width=80% src="assets/images/picture2.png">
+  <img width=80% src="assets/images/Picture2.png">
 </p>
 
 ## Citation
